@@ -111,9 +111,14 @@ let X =30;
 X += 10;
 console.log(X);
 
-console.log("hello" + "everyone");
+console.log("hello" + "Everyone");
 
 
 //Javascript Relation operator
 
-
+let Z=100;
+let C=200;
+console.log("Greater:",Z>C);
+console.log("Lesser:",Z<C);
+console.log("Greater Than Equal :",Z>=C);
+console.log("Greater Than Equal :",Z<=C);
