@@ -1,4 +1,4 @@
-//this is a comments//
+//this is a comment//
 /* sample text */
 
 
@@ -9,7 +9,7 @@ console.log (a)
 
 // Whole-script strict mode syntax
 "use strict";
-const v = "Hi! I'm a strict mode script!";
+const v = "Hey! I'm a strict mode script!";
 
 
 
@@ -114,6 +114,7 @@ console.log(X);
 console.log("hello" + "Everyone");
 
 
+
 //Javascript Relation operator
 
 let Z=100;
@@ -122,3 +123,4 @@ console.log("Greater:",Z>C);
 console.log("Lesser:",Z<C);
 console.log("Greater Than Equal :",Z>=C);
 console.log("Greater Than Equal :",Z<=C);
+
