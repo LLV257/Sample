@@ -12,12 +12,10 @@ console.log (a)
 const v = "Hey! I'm a strict mode script!";
 
 
-
 //javascrpt variables
 let x;
 x = 24;
 console.log(x)
-
 
 
 //javascript string
@@ -63,7 +61,7 @@ console.log(isGreater);
 let K = "10";
 console.log(K);
 
-//object types
+//Javascript object types
 let person ={
     name:'jack',
     age:20
@@ -122,4 +120,14 @@ console.log("Lesser:",Z<C);
 console.log("Greater Than Equal :",Z>=C);
 console.log("Greater Than Equal :",Z<=C);
 
-//Javascript 
+//Javascript if statement
+
+let hour =20;
+
+if (hour>=6 && hour<12) 
+console.log('Good morning');
+else if (hour>12 && hour<18)
+    console.log('Good Afternoon');
+else if (hour>18 && hour<24)
+    console.log('Good Night');
+
