@@ -35,13 +35,10 @@ console.log(result);
 
 
 
-
 //javascript is Case-sensitive
 const b = "a";
 const c = "A";
 console.log(b===c);
-
-
 
 
 //javascript undefined 
@@ -49,13 +46,9 @@ let counter;
 console.log(counter);
 
 
-
-
 //Javascript Null 
 let number="null";
 console.log(number);
-
-
 
 
 //Javascript Boolean
@@ -65,12 +58,17 @@ let isGreater = firstNum>secondNum;
 console.log(isGreater);
 
 
-
-
 //Javascript Number
 
 let K = "10";
 console.log(K);
+
+//object types
+let person ={
+    name:'jack',
+    age:20
+};
+console.log(person);
 
 
 
@@ -124,3 +122,4 @@ console.log("Lesser:",Z<C);
 console.log("Greater Than Equal :",Z>=C);
 console.log("Greater Than Equal :",Z<=C);
 
+//Javascript 
