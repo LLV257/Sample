@@ -32,7 +32,6 @@ const result = `The names are ${name} and ${name1}`;
 console.log(result);
 
 
-
 //javascript is Case-sensitive
 const b = "a";
 const c = "A";
@@ -55,7 +54,6 @@ let secondNum =5;
 let isGreater = firstNum>secondNum;
 console.log(isGreater);
 
-
 //Javascript Number
 
 let K = "10";
@@ -68,21 +66,19 @@ let person ={
 };
 console.log(person);
 
-
-
 //Javascript Unary Operator
 
 let j = 90;
 let k = +j;
 
-console.log(k); // 10
+console.log(k); 
 
 
 
 //Javascript Bitwise AND Operator
-let l = 12; 
-let  z = 25; 
-value = l & z; 
+let l = 10; 
+let  z = 5; 
+value = l|=z; 
 console.log(value); 
 
 
@@ -120,6 +116,10 @@ console.log("Lesser:",Z<C);
 console.log("Greater Than Equal :",Z>=C);
 console.log("Greater Than Equal :",Z<=C);
 
+//Javascript Comma operator
+let ans = (10, 10 + 20);
+console.log(ans);
+
 //Javascript if statement
 
 let hour =20;
@@ -130,4 +130,7 @@ else if (hour>12 && hour<18)
     console.log('Good Afternoon');
 else if (hour>18 && hour<24)
     console.log('Good Night');
+
+
+
 
