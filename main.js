@@ -154,8 +154,17 @@ while ( i < 6 ) {
 }
 console.log(i);
 
+//Javascript switch statement
 
-
-
-
+switch (new Date().getDay()) {
+    case 1:
+      text = "Today is Saturday";
+      break;
+    case 0:
+      text = "Today is Sunday";
+      break;
+    default:
+      text = "Looking forward to the Weekend";
+  }
+  console.log(text);
 
