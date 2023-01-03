@@ -131,7 +131,29 @@ else if (hour>12 && hour<18)
 else if (hour>18 && hour<24)
     console.log('Good Night');
 
-//Javascript Break and continue statement
+//Javascript continue statement
+
+let text = '';
+for (let i = 10; i < 20; i++) {
+  if (i === 12) {
+    continue;
+  }  
+  text = text + i;
+}
+console.log(text);
+
+
+//Javascript Break statement
+
+let i= 0;
+while ( i < 6 ) {
+    if(i===5) {
+        break;
+    }
+   i = i+1;
+}
+console.log(i);
+
 
 
 
