@@ -89,13 +89,10 @@ m = false;
 console.log(n || m);
 
 
-
-
 //Javascript Multiplicative operator
 let D = 497;
 D*= 2;
 console.log(D);
-
 
 
 //Javascript Additive Operator 
@@ -104,7 +101,6 @@ X += 10;
 console.log(X);
 
 console.log("hello" + "Everyone");
-
 
 
 //Javascript Relation operator
@@ -157,10 +153,10 @@ console.log(i);
 //Javascript switch statement
 
 switch (new Date().getDay()) {
-    case 1:
+    case 0:
       text = "Today is Saturday";
       break;
-    case 0:
+    case 1:
       text = "Today is Sunday";
       break;
     default:
@@ -170,3 +166,14 @@ switch (new Date().getDay()) {
 
 
   
+let add= 900;
+add +=10;
+console.log(add);
+
+
+var count  =0;
+while(l < 5)
+{
+    console.log(l);
+    l++;
+}
